@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    {% if title %}
+    <title>{{title}}</title>
+    {% else %}
+    <title>Webpage</title>
+    {% endif %}
+</head>
+<body>
+    <style>
+        .login-msg {
+            word-spacing: 1px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .main-title {
+            font-weight: 700;
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .cont {
+            background-color: rgb(228, 228, 228);
+            padding: 30px;
+        }
+        .main-content {
+            font-weight: 500;
+            font-style: oblique;
+        }
+        .main-input-container {
+            padding: 20px;
+            background-color: rgb(172, 172, 172);
+        }
+        .main-cont-full {
+            
+            background-color: rgb(255, 49, 49);
+            padding: 40px;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white main-title" href="">Password Manager Dashboard</a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse text-white" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+            <li class="nav-item text-white">
+                <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item text-white">
+                <a class="nav-link text-white" href="/about">About</a>
+            </li>
+            <li class="nav-item text-white">
+                <a class="nav-link text-white" href="">Features</a>
+            </li>
+            <li class="nav-item text-white">
+                <a class="nav-link text-white" href="/view">View Passwords</a>
+            </li>
+            <li class="nav-item text-white">
+                <a class="nav-link text-white" href="/logout">Logout</a>
+            </li>
+            </ul>
+            <span class="navbar-text text-primary mx-auto text-center login-msg">
+                Logged in as <i class="text-white">{{request.user}}</i>
+            </span>
+            
+        </div>
+        </div>
+    </nav>
+    <div class="cont">
+        <h1>View Passwords</h1>
+        <p class="lead main-content">View your stored usernames and password here. Click the view button and a modal containing your usernames and passwords will appear</p>
+    </div>
+    <!-- Button trigger modal -->
+
+<div class="container-fluid main-cont-full text-center">
+    <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        View
+    </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Usernames and Passwords</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        ...
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

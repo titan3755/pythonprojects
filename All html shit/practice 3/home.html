@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Calculator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+</head>
+<body>
+<div class="header">
+<h1>Geometric Calculator Website</h1>
+</div>
+<div class="nav-bar-box">
+<div class="link-1"><a id="l-1" href="#">About</a></div>
+<div class="link-2"><a id="l-2" href="#">Contact</a></div>
+<div class="link-3"><a id="l-3" href="#">Donate</a></div>
+<a class="l-4" href="fbi.html">Click for weed!</a>
+</div>
+<div class="content-box-1">
+<p id="p-1">Here you can calculate the area and volumes of any shape including circle, sphere, cylinder, triangle, rectangle etc</p>
+</div>
+<div class="content-box-2">
+<h2 id="h-2">Fill up the input boxes below and choose the appropiate settings and then press "Submit"</h2>
+<hr>
+<div class="text-box">
+<label class="lb-1">INPUTS: </label>
+<input placeholder="Input 1" name="input" title="Input the numbers here" type="text" class="text-1">
+<input placeholder="Input 2" name="input2" title="Input the numbers here" type="text" class="text-2" list="list-1">
+<input placeholder="Input 3" name="input3" title="Input the numbers here" type="text" class="text-3" list="list-2">
+<datalist id="list-1">
+<option value="area"></option>
+<option value="volume"></option>
+</datalist>
+<datalist id="list-2">
+<option value="area"></option>
+<option value="volume"></option>
+</datalist>
+</div>
+<div class="radio-box">
+<div class="radio-1">
+<input onclick="clickRadio()" type="radio" name="rd-button" class="rd-1" value="rec">
+<label for="rd-1" class="lb-2">Rectangle</label>
+</div>
+<div class="radio-2">
+<input onclick="clickRadio()" type="radio" name="rd-button" class="rd-2" value="tri">
+<label class="lb-2" for="rd-2">Triangle</label>
+</div>
+<div class="radio-3">
+<input class="rd-3" onclick="clickRadio()" type="radio" name="rd-button" value="sphere">
+<label class="lb-2" for="rd-3">Sphere</label>
+</div>
+<div class="radio-4">
+<input onclick="clickRadio()" type="radio" name="rd-button" class="rd-4" value="cylinder">
+<label for="rd-4" class="lb-2">Cylinder</label>
+</div>
+<input onclick="submitButton()" type="button" value="Submit" name="submit-button" class="submit-1" placeholder="Submit">
+<input onclick="clickClearRec()" type="button" value="Clear" name="clear-button" class="submit-1" placeholder="Clear">
+</div>
+<div class="output-box">
+<output class="output-calc">Output: </output>
+</div>
+</div>
+<div class="footer-box">
+<h2 class="h-f"><strong>---- Copyright Big Brain ----</strong></h2>
+</div>
+
+
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+
+
+</html>

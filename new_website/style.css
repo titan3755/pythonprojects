@@ -1,0 +1,241 @@
+/*This is header stuff*/
+.header{
+width: 100%;
+height: 80px;
+display: block;
+background-color: #101010;
+}
+.inner_header{
+width: 1000px;
+display: block;
+height: 100%;
+margin: 0 auto;
+}
+.logo_container{
+height: 100%;
+display: table;
+float: left;
+}
+.logo_container h1{
+color: white;
+display: table-cell;
+height: 100%;
+vertical-align: middle;
+font-family: 'Montserrat';
+font-size: 32px;
+}
+.logo_container h1 span{
+font-weight: 800;
+}
+.navigation{
+float: right;
+height: 100%;
+}
+.navigation a{
+height: 100%;
+float: left;
+display: table;
+padding: 0px 20px;
+}
+
+.navigation a:last-child{
+padding-right: 0px;
+}
+.navigation a li{
+display: table-cell;
+vertical-align: middle;
+height: 100%;
+color: white;
+font-family: 'Montserrat';
+font-size: 16px;
+}
+.margin{
+margin: -20px;
+}
+/*Header stuff ends here*/
+/*Other stuff starts here*/
+.paragraph1{
+width: 100%;
+text-align: left;
+padding: 15px;
+margin-top: -35px;
+position:relative; right: 0px; top: 50px;
+font-size: 40px;
+font-family: 'Sansita Swashed';
+position: relative; top: -5px; left: -10px;
+color: white;
+text-align: center;
+
+}
+.hometitle_1{
+background-color: darkred;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: -8px;
+margin-right: -8px;
+position: relative; top: -6px;
+padding-bottom: 0px;
+
+}
+/*Footer*/
+.copyright1{
+font-size: 20px;
+font-family: 'Montserrat';
+font-weight: 600;
+background-color: black;
+color: white;
+text-align: center;
+position: relative; top: 400px;
+padding: 5px;
+margin-left: -12px;
+margin-right: -12px;
+}
+.contact_1{
+font-size: 35px;
+font-family: 'Montserrat';
+font-weight: bolder;
+position: relative; left: 50px; top: 24px;
+color: white;
+
+}
+.contact_2{
+background-color: grey;
+margin-left: -15px;
+margin-right: -15px;
+position: relative; top: 430px;
+padding: 0px;
+
+
+}
+.copyright{
+position: relative; bottom: 80px;
+
+
+}
+
+/*Footer Ends Here*/
+body{
+background-color: white;
+position: relative;
+overflow-x: hidden;
+
+}
+.header_1{
+font-family: 'Oswald';
+text-align: center;
+color: white;
+font-weight: 500;
+font-size: 50px;
+position: relative; top: 0px;
+
+
+}
+.background_image_1{
+background: url(https://images.pexels.com/photos/3082340/pexels-photo-3082340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+padding-top: 50px;
+padding-bottom: 80px;
+margin-left: -20px;
+margin-right: -20px;
+position: relative; top: -40px;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.paragraph2{
+
+
+
+
+}
+.paragraph2 p{
+font-size: 25px;
+font-family: 'Ubuntu';
+font-weight: 600;
+position: relative; top: -30px;
+color: black;
+
+}
+.container_1{
+border: 5px gray solid;
+font-size: 30px;
+font-family: 'Ubuntu';
+font-weight: 400;
+position: relative; top: -30px; right: 0px;
+width: 25%;
+text-align: left;
+
+}
+.list_1{
+
+
+
+
+}
+.bullet_point_desc{
+font-size: 20px;
+font-family: 'Ubuntu';
+width: 70%;
+font-weight: 500;
+text-align: left;
+border: 5px gray solid;
+position: relative; right: -340px; top: -227px;
+padding-bottom: 40px;
+padding-left: 15px;
+padding-right: 4px;
+
+
+}
+.button_1{
+width: 40%;
+position: relative; left: 500px; bottom: 50px;
+background-color: red;
+color: white;
+border: 2.5px white solid;
+border-radius: 25px;
+cursor: pointer;
+font-size: 25px;
+font-family: 'Ubuntu';
+
+
+}
+.button_1:hover{
+background-color: darkorange;
+
+
+}
+.img_container_1{
+
+
+
+
+
+}
+.img_1{
+position: relative; top: -200px; left: 320px;
+width: 250px;
+
+}
+.img_2{
+position: relative; top: -200px; left: 420px;
+width: 250px;
+
+}
+.img_paragraph_container{
+
+
+
+}
+.img_paragraph{
+font-size: 35px;
+font-family: 'Ubuntu';
+font-style: normal;
+color: #39FF14;
+text-align: center;
+position: relative; bottom: 230px;
+border: 5px #39FF14 solid;
+border-radius: 20px;
+background-color: black;
+
+
+
+}

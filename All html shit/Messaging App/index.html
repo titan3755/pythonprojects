@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Messaging App</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Simple Messaging Utility</h1>
+        <p id="description">Send a message to the server for temporary storage! Don't send any personal information as the messages are public.</p>
+        <input type="text" name="msg" id="msg-input" placeholder="Enter message here">
+        <button id="submit">Click to submit</button>
+        <button id="view">View Messages</button>
+    </div>
+    <div class="modal-bg">
+        <div class="modal-content">
+            <h2 id="modal-title">--Previously Sent Messages--</h2>
+            <p id="msg-content">No messages found!</p>
+            <button id="close">Click to close</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <noscript>Please enable JavaScript to view the website</noscript>
+</body>
+</html>

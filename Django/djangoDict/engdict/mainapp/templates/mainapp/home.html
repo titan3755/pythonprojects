@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    {% if title %}
+    <title>{{title}}</title>
+    {% else %}
+    <title>Webpage</title>
+    {% endif %}
+
+    <style>
+        .main-content {
+            display: flex;
+
+        }
+        .main-sub {
+            background-color: rgb(214, 214, 214);
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 255, 195);">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">English Dictionary</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://developer.oxforddictionaries.com/">API</a>
+            </li>
+            </ul>
+            <span class="navbar-text">
+            Simple free english dictionary
+            </span>
+        </div>
+        </div>
+    </nav>
+    <div class="main-sub">
+        <h2>Search the desired word below and get the definition for it</h2>
+    </div>
+    <div class="main-content">
+        <div class="input-group mb-3">
+            <form action="." method="POST">
+                {% csrf_token %}
+            <input name="search" type="text" class="form-control" placeholder="Search words" aria-label="Search words" aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="submit" id="button-addon2">Submit Search</button>
+            </form>
+        </div>
+    </div>
+    <div class="main-definition">
+        <h3>{{definition}}</h3>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

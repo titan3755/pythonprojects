@@ -1,0 +1,17 @@
+.header-main{
+    background-color: black;
+    color: lime;
+}
+
+.box-1{
+    animation-name: key-1;
+    background-color: red;
+    padding: 20px;
+    animation-duration: 5s;
+    position: relative; top: 100px; left: 100px;
+}
+@keyframes key-1{
+    from{background-color: black; border: 15px; border-radius: 20px; top: 500px; left: 400px;}
+    to{background-color: blue; border: 10px; border-radius: 5px; top: 100px; left: 100px;}
+}
+

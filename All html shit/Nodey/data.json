@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Doyal Baba",
+        "age": 30,
+        "isMarried": false,
+        "height": 1.5,
+        "weight": 67.45 
+    },
+    {
+        "name": "Mofiz Bhai",
+        "age": 10,
+        "isMarried": true,
+        "height": 500,
+        "weight": 12.33 
+    },
+    {
+        "name": "Mr.Durex",
+        "age": 100,
+        "isMarried": true,
+        "height": 1,
+        "weight": 100 
+    },
+    {
+        "name": "Snoop Dogg",
+        "age": 40,
+        "isMarried": true,
+        "height": 300,
+        "weight": 17.32536 
+    }
+]

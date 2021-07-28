@@ -1,0 +1,85 @@
+    <!-- <div class="page-header secondary-gradient py-5">
+
+        <div class="container py-4">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <img src="{% static 'mainapp/coding.svg' %}" alt="Image error">
+                </div>
+                <div class="col-md-6">
+                    <h2>Web Development</h2>
+                    <p>Need a website? Well, you are in the right place! We will make any website you like as long as it's in the mentioned categories <a class="link-primary" href="/pricing">here</a>. We make Ecommerce, Business sites, communication sites, personal websites, portfolios, advertisement websites and much much more.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <h2>Graphics Design</h2>
+                    <p>Just need a logo or banner for your new business or social media? No problems. Grab one of our premium graphics packages <a class="link-primary" href="/pricing">here</a>. Our graphics team will see to your request within minutes and the delivery time will be given via messenger.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <img src="{% static 'mainapp/art.svg' %}" alt="Image error">
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-4">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <img src="{% static 'mainapp/cam.svg' %}" alt="Image error">
+                </div>
+                <div class="col-md-6 text-end">
+                    <h2>Motion Graphics</h2>
+                    <p>Need to animate something? Perhaps you need a cool <i>not</i> cringey intro for Youtube? Well, whatever it is, grab a motion graphics package <a class="link-primary" href="/pricing">here</a> and we shall serve! Our graphics package include character animation, video editing, gaming montages, youtube video editing, 2d and 3d intros for youtube and social media, game title screens and more.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid bg-image">
+
+    </div> -->
+
+    
+    <!-- <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom text-center">
+            <blockquote class="blockquote">
+            <h2>Currently Available Services</h2>
+            </blockquote>
+        </h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                </svg>
+            </div>
+            <div>
+                <h2>Web Development</h2>
+                <p>Need a website? Well, you are in the right place! We will make any website you like as long as it's in the mentioned categories <a class="link-primary" href="/pricing">here</a>.</p>
+            </div>
+            </div>
+            <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-palette-fill" viewBox="0 0 16 16">
+                    <path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07zM8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                </svg>
+            </div>
+            <div>
+                <h2>Graphics Design</h2>
+                <p>Just need a logo or banner for your new business or social media? No problems. Grab one of our premium graphics packages <a class="link-primary" href="/pricing">here</a>.</p>
+            </div>
+            </div>
+            <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-camera-video-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"/>
+                </svg>
+            </div>
+            <div>
+                <h2>Motion Graphics</h2>
+                <p>Need to animate something? Perhaps you need a cool <i>not</i> cringey intro for Youtube? Well, whatever it is, grab a motion graphics package <a class="link-primary" href="/pricing">here</a> and we shall serve!</p>
+            </div>
+            </div>
+        </div>
+    </div> -->

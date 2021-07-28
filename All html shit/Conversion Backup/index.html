@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icons/unit.ico" type="image/x-icon">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="flex-cont-header">
+        <!-- <div class="header"> -->
+            <h1 id="main-header">Simple Unit Converter App</h1>
+            <h2 id="desc">One app, all units</h2>
+        <!-- </div> -->
+    </div>
+        
+    <div class="flex-cont-navbar">
+        <button id="temp">Temperature</button>
+        <button id="pres">Pressure</button>
+        <button id="dist">Distance</button>
+        <button id="area">Area</button>
+        <button id=vol>Volume</button>
+        <button id="weight">Weight</button>
+    </div>
+
+    <div class="flex-cont-convert">
+        <div class="num-cont">
+            <label for="input-no">Enter number</label>
+            <input type="number" name="input-no" id="num">
+        </div>
+        <div class="select-cont">
+            <label for="conversion-options">Convert From</label>
+            <select name="conversion-options" id="con-from">
+                
+            </select>
+            <label for="convert-to">Convert To</label>
+            <select name="convert-to" id="con-to">
+
+            </select>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+
+    <script src="./javascript-stuff/main.js"></script>
+    <noscript>Enable JavaScript</noscript>
+</body>
+</html>

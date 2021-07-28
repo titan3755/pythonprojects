@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+body{
+    margin: 0;
+    border: 0;
+    max-height: fit-content;
+}
+label{
+    font-size: 25px;
+    font-family: 'Ubuntu';
+    margin: 5px;
+}
+.ultimate-flexbox{
+    display: flex;
+}
+.flex-cont-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 129, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.flex-cont-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: linear-gradient(to right, rgb(0, 162, 255), rgb(0, 48, 182), rgb(119, 0, 255))
+}
+.flex-cont-convert{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center; 
+    align-items: center;
+    margin: 10px;
+
+}
+.select-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.num-cont{
+    display: flex;
+}
+#temp, #pres, #dist, #area, #vol, #weight{
+    width: 160px;
+    padding: 12px;
+    margin: 20px;
+    border: none;
+    background-color: rgb(22, 65, 100);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.1s;
+    border: 2px black solid;
+    
+}
+#temp:hover, #pres:hover, #dist:hover, #area:hover, #vol:hover, #weight:hover{
+    background-color: rgba(0, 140, 255, 0.623);
+    
+}
+#temp:active, #pres:active, #dist:active, #area:active, #vol:active, #weight:active{
+    transform: scale3d(0.95, 0.95, 0.95);
+}
+/* #temp:focus, #pres:focus, #dist:focus, #area:focus, #vol:focus, #weight:focus{
+    background-color: rgb(0, 155, 8); 
+} */
+#desc, #main-header{
+    text-align: center;
+}
+#desc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#num{
+    width: 300px; 
+    /* height: 35px;  */
+}
+#con-from, #con-to{
+    /* width: 100px;
+    height: 50px; */
+    margin-left: 10px; margin-right: 10px;
+}
+.btn-active{
+    background-color: rgb(2, 175, 2);
+}

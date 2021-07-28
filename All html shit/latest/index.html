@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quantico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="#" class="main-link">Login to access website</a>
+    </div>
+    <div class="link-nav">
+        <div class="link-cont">
+            <a href="#" onclick="helpFunc()" class="nav-bar-link-1">Help</a>
+        </div>
+        <div class="link-cont">
+            <a href="#" class="nav-bar-link-2">About</a>
+        </div>
+        <div class="link-cont">
+            <a href="#" class="nav-bar-link-3">Contact</a>
+        </div>
+    </div>
+    <div class="login-box">
+        <form>
+            <fieldset name="fieldset-1">
+                <legend class="legend-1">Username Info</legend>
+                <div class="success-box">
+                    <h3>Success!</h3>
+                </div>
+                <label for="user-name">Enter Username</label>
+                <input type="text" name="username" class="in-1" placeholder="Username">
+                <input onclick="submitForm()" type="button" value="Submit" class="submit-1">
+            </fieldset>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

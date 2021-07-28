@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    border: 0;
+}
+#weed {
+    color: rgb(221, 4, 4);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+#biri {
+    font-size: 20px;
+    text-align: center;
+}
